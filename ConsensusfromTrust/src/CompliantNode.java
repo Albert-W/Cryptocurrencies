@@ -1,6 +1,6 @@
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
+
+import static java.util.Arrays.sort;
 
 /* CompliantNode refers to a node that follows the rules (not malicious)*/
 public class CompliantNode implements Node {
@@ -10,7 +10,7 @@ public class CompliantNode implements Node {
     private double p_txDistribution;
     private int numRounds;
     private Set<Transaction> pendingTransactions;
-    HashMap<Transaction,Integer> hm;
+    //HashMap<Transaction,Integer> hm;
 
     boolean[]followees;
     boolean[]blacklist;
@@ -21,7 +21,7 @@ public class CompliantNode implements Node {
         this.p_malicious = p_malicious;
         this.p_txDistribution = p_txDistribution;
         this.numRounds = numRounds;
-        hm = new HashMap<Transaction,Integer>();
+        //hm = new HashMap<Transaction,Integer>();
 
     }
 
@@ -51,17 +51,38 @@ public class CompliantNode implements Node {
 
     public void receiveFromFollowees(Set<Candidate> candidates) {
         // IMPLEMENT THIS
-        for (Candidate candidate : candidates) {
-            if(hm.containsKey(candidate.tx)){
-                hm.put(candidate.tx,hm.get(candidate.tx)+1);
-            } else {
-                hm.put(candidate.tx,1);
-            }
+//        for (Candidate candidate : candidates) {
+//            if(hm.containsKey(candidate.tx)){
+//                hm.put(candidate.tx,hm.get(candidate.tx)+1);
+//            } else {
+//                hm.put(candidate.tx,1);
+//            }
+//
+//            if(hm.get(candidate.tx)>Math.max(3,p_txDistribution*p_graph*p_malicious*candidates.size()*10)*p_txDistribution*p_malicious){
+//                pendingTransactions.add(candidate.tx);
+//            }
+//        }
+        //TreeMap<Transaction,Integer> t= new TreeMap<>();
+        //Transaction cann't be sorted.
+//        TreeSet<Transaction>t = new TreeSet<>();
+//        for(Candidate c:candidates){
+//            //pendingTransactions.add(c.tx);
+//            t.add(c.tx);
+//        }
+//        pendingTransactions.addAll(t);
 
-            if(hm.get(candidate.tx)>Math.max(3,p_txDistribution*p_graph*p_malicious*candidates.size()*10)*p_txDistribution*p_malicious){
-                pendingTransactions.add(candidate.tx);
-            }
-        }
+        //when I sort the list, it doesn't improve.
+//        int[] temp= new int[candidates.size()];
+//        int i=0;
+//        for(Candidate c:candidates){
+//            temp[i++]=c.tx.id;
+//        }
+//        sort(temp);
+//        for(i=0;i<temp.length;i++){
+//            pendingTransactions.add(new Transaction(temp[i]));
+//        }
+
+
 
     }
 }

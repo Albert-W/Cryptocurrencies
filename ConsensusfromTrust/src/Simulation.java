@@ -60,7 +60,7 @@ public class Simulation {
       HashSet<Integer> validTxIds = new HashSet<Integer>();
       Random random = new Random();
       for (int i = 0; i < numTx; i++) {
-         int r = random.nextInt();
+         int r = random.nextInt()%100;
          validTxIds.add(r);
       }
 

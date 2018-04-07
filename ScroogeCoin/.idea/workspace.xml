@@ -2,10 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b4ff0029-58e0-4404-99ac-b7c2905184b0" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../BlockChain/src/TxHandler.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ConsensusfromTrust/src/Candidate.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ConsensusfromTrust/src/CompliantNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ConsensusfromTrust/src/MaliciousNode.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ConsensusfromTrust/src/Node.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ConsensusfromTrust/src/Simulation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../ConsensusfromTrust/src/Transaction.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ConsensusfromTrust/out/production/ConsensusfromTrust/CompliantNode.class" afterPath="$PROJECT_DIR$/../ConsensusfromTrust/out/production/ConsensusfromTrust/CompliantNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ConsensusfromTrust/out/production/ConsensusfromTrust/MaliciousNode.class" afterPath="$PROJECT_DIR$/../ConsensusfromTrust/out/production/ConsensusfromTrust/MaliciousNode.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ConsensusfromTrust/out/production/ConsensusfromTrust/Simulation.class" afterPath="$PROJECT_DIR$/../ConsensusfromTrust/out/production/ConsensusfromTrust/Simulation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ConsensusfromTrust/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ConsensusfromTrust/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ConsensusfromTrust/src/CompliantNode.java" afterPath="$PROJECT_DIR$/../ConsensusfromTrust/src/CompliantNode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ConsensusfromTrust/src/MaliciousNode.java" afterPath="$PROJECT_DIR$/../ConsensusfromTrust/src/MaliciousNode.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ConsensusfromTrust/src/Simulation.java" afterPath="$PROJECT_DIR$/../ConsensusfromTrust/src/Simulation.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MaxFeeTxHandler.java" afterPath="$PROJECT_DIR$/src/MaxFeeTxHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TxHandler.java" afterPath="$PROJECT_DIR$/src/TxHandler.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +38,51 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="TxHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TxHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;method#TxHandler#0;class#TxHandler#0" expanded="true" />
+                <element signature="method#TxHandler#0;class#TxHandler#0" expanded="true" />
+                <element signature="docComment;method#isValidTx#0;class#TxHandler#0" expanded="true" />
+                <element signature="method#isValidTx#0;class#TxHandler#0" expanded="true" />
+                <element signature="docComment;method#handleTxs#0;class#TxHandler#0" expanded="true" />
+                <element signature="method#handleTxs#0;class#TxHandler#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Transaction.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Transaction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="103" column="35" lean-forward="false" selection-start-line="103" selection-start-column="35" selection-end-line="103" selection-end-column="35" />
+              <folding>
+                <element signature="docComment;field#prevTxHash#0;class#Input#0;class#Transaction#0" expanded="true" />
+                <element signature="docComment;field#outputIndex#0;class#Input#0;class#Transaction#0" expanded="true" />
+                <element signature="docComment;field#signature#0;class#Input#0;class#Transaction#0" expanded="true" />
+                <element signature="method#Input#0;class#Input#0;class#Transaction#0" expanded="true" />
+                <element signature="method#addSignature#0;class#Input#0;class#Transaction#0" expanded="true" />
+                <element signature="docComment;field#value#0;class#Output#0;class#Transaction#0" expanded="true" />
+                <element signature="method#Output#0;class#Output#0;class#Transaction#0" expanded="true" />
+                <element signature="method#Transaction#1;class#Transaction#0" expanded="true" />
+                <element signature="e#2567#2573#0" expanded="true" />
+                <element signature="method#getRawTx#0;class#Transaction#0" expanded="true" />
+                <element signature="e#3870#3876#0" expanded="true" />
+                <element signature="method#finalize#0;class#Transaction#0" expanded="true" />
+                <element signature="method#getInput#0;class#Transaction#0" expanded="true" />
+                <element signature="method#getOutput#0;class#Transaction#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -65,8 +120,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="40" />
-    <option name="y" value="71" />
+    <option name="x" value="45" />
+    <option name="y" value="44" />
     <option name="width" value="1942" />
     <option name="height" value="1033" />
   </component>
@@ -86,6 +141,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -102,10 +158,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -184,6 +239,9 @@
       <workItem from="1521575128152" duration="1075000" />
       <workItem from="1521576491329" duration="9375000" />
       <workItem from="1521718010467" duration="142000" />
+      <workItem from="1523004113587" duration="100000" />
+      <workItem from="1523005386426" duration="907000" />
+      <workItem from="1523120875880" duration="597000" />
     </task>
     <task id="LOCAL-00001" summary="create the ScroogeCoin Project.">
       <created>1521559994037</created>
@@ -196,10 +254,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26501000" />
+    <option name="totallyTimeSpent" value="28105000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="71" width="1942" height="1033" extended-state="0" />
+    <frame x="45" y="44" width="1942" height="1033" extended-state="0" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -213,7 +271,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15578158" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16006424" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962757" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -282,6 +340,45 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/TxHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#TxHandler#0;class#TxHandler#0" expanded="true" />
+            <element signature="method#TxHandler#0;class#TxHandler#0" expanded="true" />
+            <element signature="docComment;method#isValidTx#0;class#TxHandler#0" expanded="true" />
+            <element signature="method#isValidTx#0;class#TxHandler#0" expanded="true" />
+            <element signature="docComment;method#handleTxs#0;class#TxHandler#0" expanded="true" />
+            <element signature="method#handleTxs#0;class#TxHandler#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="103" column="35" lean-forward="false" selection-start-line="103" selection-start-column="35" selection-end-line="103" selection-end-column="35" />
+          <folding>
+            <element signature="docComment;field#prevTxHash#0;class#Input#0;class#Transaction#0" expanded="true" />
+            <element signature="docComment;field#outputIndex#0;class#Input#0;class#Transaction#0" expanded="true" />
+            <element signature="docComment;field#signature#0;class#Input#0;class#Transaction#0" expanded="true" />
+            <element signature="method#Input#0;class#Input#0;class#Transaction#0" expanded="true" />
+            <element signature="method#addSignature#0;class#Input#0;class#Transaction#0" expanded="true" />
+            <element signature="docComment;field#value#0;class#Output#0;class#Transaction#0" expanded="true" />
+            <element signature="method#Output#0;class#Output#0;class#Transaction#0" expanded="true" />
+            <element signature="method#Transaction#1;class#Transaction#0" expanded="true" />
+            <element signature="e#2567#2573#0" expanded="true" />
+            <element signature="method#getRawTx#0;class#Transaction#0" expanded="true" />
+            <element signature="e#3870#3876#0" expanded="true" />
+            <element signature="method#finalize#0;class#Transaction#0" expanded="true" />
+            <element signature="method#getInput#0;class#Transaction#0" expanded="true" />
+            <element signature="method#getOutput#0;class#Transaction#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Transaction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -295,7 +392,9 @@
             <element signature="docComment;field#value#0;class#Output#0;class#Transaction#0" expanded="true" />
             <element signature="method#Output#0;class#Output#0;class#Transaction#0" expanded="true" />
             <element signature="method#Transaction#1;class#Transaction#0" expanded="true" />
+            <element signature="e#2567#2573#0" expanded="true" />
             <element signature="method#getRawTx#0;class#Transaction#0" expanded="true" />
+            <element signature="e#3870#3876#0" expanded="true" />
             <element signature="method#finalize#0;class#Transaction#0" expanded="true" />
             <element signature="method#getInput#0;class#Transaction#0" expanded="true" />
             <element signature="method#getOutput#0;class#Transaction#0" expanded="true" />
@@ -308,12 +407,12 @@
         <state relative-caret-position="570">
           <caret line="97" column="42" lean-forward="true" selection-start-line="97" selection-start-column="42" selection-end-line="97" selection-end-column="42" />
           <folding>
-            <element signature="docComment;method#MaxFeeTxHandler#0;class#MaxFeeTxHandler#0" expanded="true" />
-            <element signature="method#MaxFeeTxHandler#0;class#MaxFeeTxHandler#0" expanded="true" />
-            <element signature="docComment;method#isValidTx#0;class#MaxFeeTxHandler#0" expanded="true" />
-            <element signature="docComment;method#TransactionFeeRate#0;class#MaxFeeTxHandler#0" expanded="true" />
-            <element signature="docComment;method#handleTxs#0;class#MaxFeeTxHandler#0" expanded="true" />
-            <element signature="method#handleTxs#0;class#MaxFeeTxHandler#0" expanded="true" />
+            <element signature="docComment;method#MaxFeeTxHandler#0;class#MaxFeeTxHandler#0" expanded="false" />
+            <element signature="method#MaxFeeTxHandler#0;class#MaxFeeTxHandler#0" expanded="false" />
+            <element signature="docComment;method#isValidTx#0;class#MaxFeeTxHandler#0" expanded="false" />
+            <element signature="docComment;method#TransactionFeeRate#0;class#MaxFeeTxHandler#0" expanded="false" />
+            <element signature="docComment;method#handleTxs#0;class#MaxFeeTxHandler#0" expanded="false" />
+            <element signature="method#handleTxs#0;class#MaxFeeTxHandler#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -323,7 +422,7 @@
         <state relative-caret-position="266">
           <caret line="23" column="41" lean-forward="true" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -337,6 +436,7 @@
             <element signature="docComment;method#TxHandler#0;class#TxHandler#0" expanded="true" />
             <element signature="method#TxHandler#0;class#TxHandler#0" expanded="true" />
             <element signature="docComment;method#isValidTx#0;class#TxHandler#0" expanded="true" />
+            <element signature="method#isValidTx#0;class#TxHandler#0" expanded="true" />
             <element signature="docComment;method#handleTxs#0;class#TxHandler#0" expanded="true" />
             <element signature="method#handleTxs#0;class#TxHandler#0" expanded="true" />
           </folding>
@@ -348,12 +448,12 @@
         <state relative-caret-position="247">
           <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding>
-            <element signature="docComment;method#MaxFeeTxHandler#0;class#MaxFeeTxHandler#0" expanded="true" />
-            <element signature="method#MaxFeeTxHandler#0;class#MaxFeeTxHandler#0" expanded="true" />
-            <element signature="docComment;method#isValidTx#0;class#MaxFeeTxHandler#0" expanded="true" />
-            <element signature="docComment;method#TransactionFeeRate#0;class#MaxFeeTxHandler#0" expanded="true" />
-            <element signature="docComment;method#handleTxs#0;class#MaxFeeTxHandler#0" expanded="true" />
-            <element signature="method#handleTxs#0;class#MaxFeeTxHandler#0" expanded="true" />
+            <element signature="docComment;method#MaxFeeTxHandler#0;class#MaxFeeTxHandler#0" expanded="false" />
+            <element signature="method#MaxFeeTxHandler#0;class#MaxFeeTxHandler#0" expanded="false" />
+            <element signature="docComment;method#isValidTx#0;class#MaxFeeTxHandler#0" expanded="false" />
+            <element signature="docComment;method#TransactionFeeRate#0;class#MaxFeeTxHandler#0" expanded="false" />
+            <element signature="docComment;method#handleTxs#0;class#MaxFeeTxHandler#0" expanded="false" />
+            <element signature="method#handleTxs#0;class#MaxFeeTxHandler#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -371,7 +471,9 @@
             <element signature="docComment;field#value#0;class#Output#0;class#Transaction#0" expanded="true" />
             <element signature="method#Output#0;class#Output#0;class#Transaction#0" expanded="true" />
             <element signature="method#Transaction#1;class#Transaction#0" expanded="true" />
+            <element signature="e#2567#2573#0" expanded="true" />
             <element signature="method#getRawTx#0;class#Transaction#0" expanded="true" />
+            <element signature="e#3870#3876#0" expanded="true" />
             <element signature="method#finalize#0;class#Transaction#0" expanded="true" />
             <element signature="method#getInput#0;class#Transaction#0" expanded="true" />
             <element signature="method#getOutput#0;class#Transaction#0" expanded="true" />
@@ -383,10 +485,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="912">
           <caret line="321" column="16" lean-forward="false" selection-start-line="321" selection-start-column="16" selection-end-line="321" selection-end-column="16" />
-          <folding>
-            <element signature="method#update#2;class#MessageDigest#0" expanded="false" />
-            <element signature="method#digest#0;class#MessageDigest#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -394,17 +492,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="docComment;field#txHash#0;class#UTXO#0" expanded="false" />
-            <element signature="docComment;field#index#0;class#UTXO#0" expanded="false" />
-            <element signature="docComment;method#UTXO#0;class#UTXO#0" expanded="false" />
-            <element signature="method#UTXO#0;class#UTXO#0" expanded="false" />
-            <element signature="docComment;method#getTxHash#0;class#UTXO#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#UTXO#0" expanded="false" />
-            <element signature="method#hashCode#0;class#UTXO#0" expanded="false" />
-            <element signature="docComment;method#compareTo#0;class#UTXO#0" expanded="false" />
-            <element signature="method#compareTo#0;class#UTXO#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -429,7 +516,7 @@
         <state relative-caret-position="456">
           <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -443,6 +530,7 @@
             <element signature="docComment;method#TxHandler#0;class#TxHandler#0" expanded="true" />
             <element signature="method#TxHandler#0;class#TxHandler#0" expanded="true" />
             <element signature="docComment;method#isValidTx#0;class#TxHandler#0" expanded="true" />
+            <element signature="method#isValidTx#0;class#TxHandler#0" expanded="true" />
             <element signature="docComment;method#handleTxs#0;class#TxHandler#0" expanded="true" />
             <element signature="method#handleTxs#0;class#TxHandler#0" expanded="true" />
           </folding>
@@ -454,12 +542,12 @@
         <state relative-caret-position="399">
           <caret line="56" column="9" lean-forward="false" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
           <folding>
-            <element signature="docComment;method#MaxFeeTxHandler#0;class#MaxFeeTxHandler#0" expanded="true" />
-            <element signature="method#MaxFeeTxHandler#0;class#MaxFeeTxHandler#0" expanded="true" />
-            <element signature="docComment;method#isValidTx#0;class#MaxFeeTxHandler#0" expanded="true" />
-            <element signature="docComment;method#TransactionFeeRate#0;class#MaxFeeTxHandler#0" expanded="true" />
-            <element signature="docComment;method#handleTxs#0;class#MaxFeeTxHandler#0" expanded="true" />
-            <element signature="method#handleTxs#0;class#MaxFeeTxHandler#0" expanded="true" />
+            <element signature="docComment;method#MaxFeeTxHandler#0;class#MaxFeeTxHandler#0" expanded="false" />
+            <element signature="method#MaxFeeTxHandler#0;class#MaxFeeTxHandler#0" expanded="false" />
+            <element signature="docComment;method#isValidTx#0;class#MaxFeeTxHandler#0" expanded="false" />
+            <element signature="docComment;method#TransactionFeeRate#0;class#MaxFeeTxHandler#0" expanded="false" />
+            <element signature="docComment;method#handleTxs#0;class#MaxFeeTxHandler#0" expanded="false" />
+            <element signature="method#handleTxs#0;class#MaxFeeTxHandler#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -477,7 +565,9 @@
             <element signature="docComment;field#value#0;class#Output#0;class#Transaction#0" expanded="true" />
             <element signature="method#Output#0;class#Output#0;class#Transaction#0" expanded="true" />
             <element signature="method#Transaction#1;class#Transaction#0" expanded="true" />
+            <element signature="e#2567#2573#0" expanded="true" />
             <element signature="method#getRawTx#0;class#Transaction#0" expanded="true" />
+            <element signature="e#3870#3876#0" expanded="true" />
             <element signature="method#finalize#0;class#Transaction#0" expanded="true" />
             <element signature="method#getInput#0;class#Transaction#0" expanded="true" />
             <element signature="method#getOutput#0;class#Transaction#0" expanded="true" />
@@ -489,10 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6099">
           <caret line="321" column="16" lean-forward="false" selection-start-line="321" selection-start-column="16" selection-end-line="321" selection-end-column="16" />
-          <folding>
-            <element signature="method#update#2;class#MessageDigest#0" expanded="false" />
-            <element signature="method#digest#0;class#MessageDigest#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -500,17 +586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="docComment;field#txHash#0;class#UTXO#0" expanded="false" />
-            <element signature="docComment;field#index#0;class#UTXO#0" expanded="false" />
-            <element signature="docComment;method#UTXO#0;class#UTXO#0" expanded="false" />
-            <element signature="method#UTXO#0;class#UTXO#0" expanded="false" />
-            <element signature="docComment;method#getTxHash#0;class#UTXO#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#UTXO#0" expanded="false" />
-            <element signature="method#hashCode#0;class#UTXO#0" expanded="false" />
-            <element signature="docComment;method#compareTo#0;class#UTXO#0" expanded="false" />
-            <element signature="method#compareTo#0;class#UTXO#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -535,7 +610,7 @@
         <state relative-caret-position="285">
           <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -549,6 +624,7 @@
             <element signature="docComment;method#TxHandler#0;class#TxHandler#0" expanded="true" />
             <element signature="method#TxHandler#0;class#TxHandler#0" expanded="true" />
             <element signature="docComment;method#isValidTx#0;class#TxHandler#0" expanded="true" />
+            <element signature="method#isValidTx#0;class#TxHandler#0" expanded="true" />
             <element signature="docComment;method#handleTxs#0;class#TxHandler#0" expanded="true" />
             <element signature="method#handleTxs#0;class#TxHandler#0" expanded="true" />
           </folding>
@@ -560,12 +636,12 @@
         <state relative-caret-position="171">
           <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
           <folding>
-            <element signature="docComment;method#MaxFeeTxHandler#0;class#MaxFeeTxHandler#0" expanded="true" />
-            <element signature="method#MaxFeeTxHandler#0;class#MaxFeeTxHandler#0" expanded="true" />
-            <element signature="docComment;method#isValidTx#0;class#MaxFeeTxHandler#0" expanded="true" />
-            <element signature="docComment;method#TransactionFeeRate#0;class#MaxFeeTxHandler#0" expanded="true" />
-            <element signature="docComment;method#handleTxs#0;class#MaxFeeTxHandler#0" expanded="true" />
-            <element signature="method#handleTxs#0;class#MaxFeeTxHandler#0" expanded="true" />
+            <element signature="docComment;method#MaxFeeTxHandler#0;class#MaxFeeTxHandler#0" expanded="false" />
+            <element signature="method#MaxFeeTxHandler#0;class#MaxFeeTxHandler#0" expanded="false" />
+            <element signature="docComment;method#isValidTx#0;class#MaxFeeTxHandler#0" expanded="false" />
+            <element signature="docComment;method#TransactionFeeRate#0;class#MaxFeeTxHandler#0" expanded="false" />
+            <element signature="docComment;method#handleTxs#0;class#MaxFeeTxHandler#0" expanded="false" />
+            <element signature="method#handleTxs#0;class#MaxFeeTxHandler#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -583,7 +659,9 @@
             <element signature="docComment;field#value#0;class#Output#0;class#Transaction#0" expanded="true" />
             <element signature="method#Output#0;class#Output#0;class#Transaction#0" expanded="true" />
             <element signature="method#Transaction#1;class#Transaction#0" expanded="true" />
+            <element signature="e#2567#2573#0" expanded="true" />
             <element signature="method#getRawTx#0;class#Transaction#0" expanded="true" />
+            <element signature="e#3870#3876#0" expanded="true" />
             <element signature="method#finalize#0;class#Transaction#0" expanded="true" />
             <element signature="method#getInput#0;class#Transaction#0" expanded="true" />
             <element signature="method#getOutput#0;class#Transaction#0" expanded="true" />
@@ -595,10 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="912">
           <caret line="321" column="16" lean-forward="false" selection-start-line="321" selection-start-column="16" selection-end-line="321" selection-end-column="16" />
-          <folding>
-            <element signature="method#update#2;class#MessageDigest#0" expanded="false" />
-            <element signature="method#digest#0;class#MessageDigest#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -606,17 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="docComment;field#txHash#0;class#UTXO#0" expanded="false" />
-            <element signature="docComment;field#index#0;class#UTXO#0" expanded="false" />
-            <element signature="docComment;method#UTXO#0;class#UTXO#0" expanded="false" />
-            <element signature="method#UTXO#0;class#UTXO#0" expanded="false" />
-            <element signature="docComment;method#getTxHash#0;class#UTXO#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#UTXO#0" expanded="false" />
-            <element signature="method#hashCode#0;class#UTXO#0" expanded="false" />
-            <element signature="docComment;method#compareTo#0;class#UTXO#0" expanded="false" />
-            <element signature="method#compareTo#0;class#UTXO#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -641,7 +704,7 @@
         <state relative-caret-position="285">
           <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -655,6 +718,7 @@
             <element signature="docComment;method#TxHandler#0;class#TxHandler#0" expanded="true" />
             <element signature="method#TxHandler#0;class#TxHandler#0" expanded="true" />
             <element signature="docComment;method#isValidTx#0;class#TxHandler#0" expanded="true" />
+            <element signature="method#isValidTx#0;class#TxHandler#0" expanded="true" />
             <element signature="docComment;method#handleTxs#0;class#TxHandler#0" expanded="true" />
             <element signature="method#handleTxs#0;class#TxHandler#0" expanded="true" />
           </folding>
@@ -672,17 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="docComment;field#txHash#0;class#UTXO#0" expanded="false" />
-            <element signature="docComment;field#index#0;class#UTXO#0" expanded="false" />
-            <element signature="docComment;method#UTXO#0;class#UTXO#0" expanded="false" />
-            <element signature="method#UTXO#0;class#UTXO#0" expanded="false" />
-            <element signature="docComment;method#getTxHash#0;class#UTXO#0" expanded="false" />
-            <element signature="docComment;method#hashCode#0;class#UTXO#0" expanded="false" />
-            <element signature="method#hashCode#0;class#UTXO#0" expanded="false" />
-            <element signature="docComment;method#compareTo#0;class#UTXO#0" expanded="false" />
-            <element signature="method#compareTo#0;class#UTXO#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -697,10 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="412">
           <caret line="321" column="16" lean-forward="false" selection-start-line="321" selection-start-column="16" selection-end-line="321" selection-end-column="16" />
-          <folding>
-            <element signature="method#update#2;class#MessageDigest#0" expanded="false" />
-            <element signature="method#digest#0;class#MessageDigest#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -720,6 +769,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MaxFeeTxHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="97" column="42" lean-forward="false" selection-start-line="97" selection-start-column="42" selection-end-line="97" selection-end-column="42" />
+          <folding>
+            <element signature="docComment;method#MaxFeeTxHandler#0;class#MaxFeeTxHandler#0" expanded="false" />
+            <element signature="method#MaxFeeTxHandler#0;class#MaxFeeTxHandler#0" expanded="false" />
+            <element signature="docComment;method#isValidTx#0;class#MaxFeeTxHandler#0" expanded="false" />
+            <element signature="docComment;method#TransactionFeeRate#0;class#MaxFeeTxHandler#0" expanded="false" />
+            <element signature="docComment;method#handleTxs#0;class#MaxFeeTxHandler#0" expanded="false" />
+            <element signature="method#handleTxs#0;class#MaxFeeTxHandler#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Crypto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TxHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;method#TxHandler#0;class#TxHandler#0" expanded="true" />
+            <element signature="method#TxHandler#0;class#TxHandler#0" expanded="true" />
+            <element signature="docComment;method#isValidTx#0;class#TxHandler#0" expanded="true" />
+            <element signature="method#isValidTx#0;class#TxHandler#0" expanded="true" />
+            <element signature="docComment;method#handleTxs#0;class#TxHandler#0" expanded="true" />
+            <element signature="method#handleTxs#0;class#TxHandler#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Transaction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -733,50 +823,12 @@
             <element signature="docComment;field#value#0;class#Output#0;class#Transaction#0" expanded="true" />
             <element signature="method#Output#0;class#Output#0;class#Transaction#0" expanded="true" />
             <element signature="method#Transaction#1;class#Transaction#0" expanded="true" />
+            <element signature="e#2567#2573#0" expanded="true" />
             <element signature="method#getRawTx#0;class#Transaction#0" expanded="true" />
+            <element signature="e#3870#3876#0" expanded="true" />
             <element signature="method#finalize#0;class#Transaction#0" expanded="true" />
             <element signature="method#getInput#0;class#Transaction#0" expanded="true" />
             <element signature="method#getOutput#0;class#Transaction#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MaxFeeTxHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="97" column="42" lean-forward="false" selection-start-line="97" selection-start-column="42" selection-end-line="97" selection-end-column="42" />
-          <folding>
-            <element signature="docComment;method#MaxFeeTxHandler#0;class#MaxFeeTxHandler#0" expanded="true" />
-            <element signature="method#MaxFeeTxHandler#0;class#MaxFeeTxHandler#0" expanded="true" />
-            <element signature="docComment;method#isValidTx#0;class#MaxFeeTxHandler#0" expanded="true" />
-            <element signature="docComment;method#TransactionFeeRate#0;class#MaxFeeTxHandler#0" expanded="true" />
-            <element signature="docComment;method#handleTxs#0;class#MaxFeeTxHandler#0" expanded="true" />
-            <element signature="method#handleTxs#0;class#MaxFeeTxHandler#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TxHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="48" column="67" lean-forward="false" selection-start-line="48" selection-start-column="67" selection-end-line="48" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;method#TxHandler#0;class#TxHandler#0" expanded="true" />
-            <element signature="method#TxHandler#0;class#TxHandler#0" expanded="true" />
-            <element signature="docComment;method#isValidTx#0;class#TxHandler#0" expanded="true" />
-            <element signature="docComment;method#handleTxs#0;class#TxHandler#0" expanded="true" />
-            <element signature="method#handleTxs#0;class#TxHandler#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Crypto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="23" column="41" lean-forward="false" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

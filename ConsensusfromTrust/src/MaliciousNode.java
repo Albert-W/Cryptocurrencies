@@ -16,6 +16,7 @@ public class MaliciousNode implements Node {
     }
 
     public Set<Transaction> sendToFollowers() {
+
         return new HashSet<Transaction>();
     }
 
